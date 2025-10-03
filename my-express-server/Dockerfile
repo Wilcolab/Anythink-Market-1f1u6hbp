@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:20
 
 # Set the working directory
 WORKDIR /usr/src/app
@@ -16,4 +16,4 @@ COPY . .
 EXPOSE 8001
 
 # Command to run the app
-CMD ["yarn", "start"]
+CMD ["node", "src/index.js"]ex.js"]
